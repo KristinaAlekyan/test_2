@@ -1,0 +1,23 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.1",
+    "firebase": "^9.8.3",
+    "firebase-admin": "^10.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

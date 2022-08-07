@@ -1,0 +1,35 @@
+### vscode restclient
+@api=http://localhost:5000
+
+### send data
+POST {{api}}/add
+Conent-Type: application/json
+
+
+### Get client api
+GET {{api}}/get-clients
+Content-Type: application/json
+
+### Get contacts api
+GET {{api}}/get-contacts
+Content-Type: application/json
+
+### Get portfolios api
+GET {{api}}/get-portfolios
+Content-Type: application/json
+
+### Get portfolio snapshot api
+GET {{api}}/get-portfolio-snaps
+Content-Type: :application/json
+
+### Get securities api
+GET {{api}}/get-securities
+Content-Type: application/json
+
+### fetch data from csv
+GET {{api}}/get-parsed-csv-data
+Content-Type: application/json
+
+### write to firestore
+POST {{api}}/write-to-db
+Content-Type: application/json
